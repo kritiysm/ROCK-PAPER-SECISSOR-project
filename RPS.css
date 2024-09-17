@@ -1,0 +1,84 @@
+header {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: solid rgb(1, 16, 19);
+    background-color: rgb(96, 148, 121);
+}
+h1,h2,div ,a{
+    display: flex;
+    justify-content: center;
+    align-items: safe;
+    justify-content: space-evenly;
+     /* margin-top: 20px;  */
+    font-size: xx-large;
+}
+
+
+p{
+    display: flex;
+    justify-content: space-around;
+    font-size: 50px;
+    font-weight: bold;
+    padding: 10px;
+}
+
+.image-container {
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    gap: 10px;
+    margin-top: 10px;
+    /* height: 80px; */
+}
+#computer,#user{
+    margin-left: 120px;
+}
+#image1,#image2{
+    width: 24%;
+    height: 200px;
+    margin-top: 10px;
+}
+.startBtn-div{
+    margin-top: 40px;
+    
+}
+button {
+    display: flex;
+    justify-content: space-evenly;
+    font-size: 30px;
+    background-color:rgb(138, 138, 150);
+    color: black;
+    border-radius: 10px;
+    /* margin-bottom: 40px; */
+    
+}
+
+
+#chosi-btn ,button{ 
+    display: flex;
+    justify-content: center;
+    justify-content: space-evenly;
+    margin-top: 25px;
+    
+}  
+
+.choose-weapon {
+    display: flex;
+    max-width: 50px;
+    min-height: 50%;
+    margin-top: 10px;
+    background-color: aqua;
+}
+#user-img, #computer-img{
+    display:none
+}
+#user-img{
+    width: 24%;
+    height: 16%;
+}
+
+#computer-img{
+    width: 24%;
+    height: 16%;
+}
